@@ -1,0 +1,17 @@
+# Notebook environment
+jupyterlab
+ipykernel
+numpy
+pandas
+matplotlib
+scikit-learn
+rdkit
+
+# Graph-model preparation and training
+pymatgen
+torch
+dgl
+alignn
+
+# The molecular graph transformer implementation used in the dissertation is
+# a separate source repository and is not installed by this requirements file.

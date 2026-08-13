@@ -1,0 +1,41 @@
+# Jupyter and Python caches
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Editor and operating-system files
+.DS_Store
+.idea/
+.vscode/
+*~
+
+# Generated outputs
+outputs/
+results/
+figures/
+checkpoints/
+
+# Large model and calculation files
+*.pt
+*.pth
+*.pkl
+*.pickle
+*.chk
+*.fchk
+*.log
+
+# Temporary files
+*.tmp
+*.temp
